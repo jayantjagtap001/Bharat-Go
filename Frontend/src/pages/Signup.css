@@ -1,0 +1,67 @@
+/* Background Styling */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+  }
+  
+  /* Card Styling */
+  .signup-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .signup-card h2 {
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .signup-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button Styling */
+  .signup-card button {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .signup-card button:hover {
+    background: #5a67d8;
+  }
+  
+  /* Link Styling */
+  .signup-card p {
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  
+  .signup-card a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-card a:hover {
+    text-decoration: underline;
+  }
+  

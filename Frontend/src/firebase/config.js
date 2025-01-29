@@ -14,7 +14,6 @@ const firebaseConfig = {
   appId: "1:722990495304:web:6c10bfd9bca6933925ca7d",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
@@ -31,8 +30,7 @@ export const signUp = async (email, password) => {
 // Login function
 export const login = async (email, password) => {
   try {
-    await signInWithEmailAndPassword
-    (auth, email, password);
+    await signInWithEmailAndPassword(auth, email, password);
     alert("Login Successful!");
   } catch (error) {
     alert(error.message);
